@@ -46,6 +46,6 @@ colSums(m)
 matriz<-matrix(c(4,5,-3, 2,1,0, 3,-1,1), ncol=3, nrow=3, byrow=T)
 det(matriz)
 
-#matriz inversa
+#matriz_inversa
 m<-matrix(c(4,1,2,0),nrow=2,ncol=2,byrow=T)
 solve(matriz)

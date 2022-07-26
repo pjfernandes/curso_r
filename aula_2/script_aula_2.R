@@ -49,3 +49,61 @@ det(matriz)
 #matriz_inversa
 m<-matrix(c(4,1,2,0),nrow=2,ncol=2,byrow=T)
 solve(matriz)
+
+#lista
+lista<-list(x,m,rnorm(10))
+pes<-list(idade=41,nome="James Bond",notas=c(98,95,100))
+lista[1]
+lista[[2]]
+is.list(lista[1])
+is.vector(lista[[2]]) 
+
+#Data Frame
+df<-data.frame(nome=c("João","Bruno","Roberto"),indice=1:3)
+df[,2]
+df[1,2]
+df$indice
+df$indice[1]
+
+df<-read.csv("samples.csv", h=T, sep=";")
+head(df)
+names(tab)
+
+##########IF
+idade<-16
+
+if (idade >= 16) {
+  print("Pode votar")
+} else {
+  print("Não pode votar")
+}
+
+idade<-13
+
+if (idade >= 16) {
+  print("Pode votar")
+} else {
+  print("Não pode votar")
+}
+
+########## FOR LOOP
+pizza <- c("portuguesa", "quatro queijos", "marguerita")
+
+for (i in 1:length(pizza)) {
+  print(pizza[i])
+}
+
+for (fatia in pizza) {
+  print(fatia)
+}
+
+maior<-0
+x<-c(3,41,12,9,74,15)
+
+for (i in 1:length(x)) {
+  if (x[i]>maior){
+    maior <-x[i]
+  }
+}
+print(maior)
+identical(maior,max(x))

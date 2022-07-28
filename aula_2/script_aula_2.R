@@ -107,3 +107,25 @@ for (i in 1:length(x)) {
 }
 print(maior)
 identical(maior,max(x))
+
+#######while
+dado<-1:6
+jogada<-sample(dado, 1)
+
+while(jogada != 5) {
+  print(jogada)
+  jogada<-sample(dado, 1)
+}
+
+#######while fatorial
+x<-1
+fatorial<-1
+
+while(x <= 5) {
+  fatorial <- fatorial * x
+  x <- x + 1
+}
+
+print(fatorial)
+
+

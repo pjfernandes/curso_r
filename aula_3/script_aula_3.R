@@ -79,3 +79,7 @@ par(mfrow=c(3,1))
 hist(ersm_declividade,breaks=50,xlim=c(0,45), col="red")
 hist(cmc_declividade,breaks=50,xlim=c(0,45), col="orange")
 boxplot(ersm_declividade, cmc, col=c("red", "orange"), names=c("ERSM", "CMC"))
+
+####Teste t de Student para verificar diferença entre médias
+var.test(cmc_declividade, ersm_declividade)
+t.test(cmc_declividade, ersm_declividade, var.equal = F)

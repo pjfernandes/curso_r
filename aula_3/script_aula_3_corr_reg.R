@@ -9,14 +9,23 @@ plot(chuva, soja)
 abline(lm(soja~chuva), col="red")
 
 
-###############EXEMPLO 2
-data("mtcars")
+###############Normalização radiometrica
+dados<-read.csv("normalizacao_radiometrica.txt", h=T, sep="\t")
 
-mtcars$wt
-mtcars$mpg
-cor(mtcars$wt, mtcars$mpg)
+modelo<-lm(dados$IMAGEM_A_SER_NORMALIZADA ~ dados$IMAGEM_REF)
+summary(modelo)
+plot(dados$IMAGEM_REF, dados$IMAGEM_A_SER_NORMALIZADA)
+abline(modelo, col="red")
 
-#Scatterplot
-plot(mtcars$wt, mtcars$mpg)
-abline(lm(mtcars$mpg ~ mtcars$wt))
+#############Séries temporais
+install.packages("Kendall")
+library(Kendall)
 
+temperatura<-read.csv("https://raw.githubusercontent.com/pjfernandes/tendencias_dados_antartica/master/dados.txt", sep="\t", h=T)
+head(temperatura)
+plot(temperatura[,1], t="l")
+MannKendall(temperatura[,1])
+###########################################
+temperatura2<-read.csv("https://raw.githubusercontent.com/pjfernandes/dados_clima_media/master/lon_75.txt", sep="\t", h=T)
+plot(temperatura2[,1], t="l")
+MannKendall(temperatura2[,1])

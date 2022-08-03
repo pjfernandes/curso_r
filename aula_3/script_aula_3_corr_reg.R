@@ -10,7 +10,7 @@ abline(lm(soja~chuva), col="red")
 
 
 ###############Normalização radiometrica
-dados<-read.csv("normalizacao_radiometrica.txt", h=T, sep="\t")
+dados<-read.csv("https://raw.githubusercontent.com/pjfernandes/curso_r/master/aula_3/normalizacao_radiometrica.txt", h=T, sep="\t")
 
 modelo<-lm(dados$IMAGEM_A_SER_NORMALIZADA ~ dados$IMAGEM_REF)
 summary(modelo)

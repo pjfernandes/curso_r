@@ -24,7 +24,7 @@ alunos_nota_10 <- df[df$notas==10,]
 pior_aluno <- df[df$notas==0,]
 
 #Leitura de dados
-tabela<-read.csv("VGs__melhores.csv", h=T, sep=",")
+tabela<-read.csv("https://raw.githubusercontent.com/pjfernandes/curso_r/master/aula_3/VGs__melhores.csv", h=T, sep=",")
 names(tabela)
 tabela$class_name
 
@@ -70,7 +70,7 @@ fig <- plot_ly(
 fig
 
 ###Boxplot classes de relevo
-tabela<-read.csv("VGs__melhores.csv", h=T, sep=",")
+tabela<-read.csv("https://raw.githubusercontent.com/pjfernandes/curso_r/master/aula_3/VGs__melhores.csv", h=T, sep=",")
 
 ersm_declividade<-tabela[tabela$class_name=="Escarpas e Reversos da Serra do Mar",]$Mean.Declividade
 cmc_declividade<-tabela[tabela$class_name=="Colinas e Maci\xe7os Costeiros",]$Mean.Declividade

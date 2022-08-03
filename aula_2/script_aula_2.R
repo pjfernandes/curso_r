@@ -65,7 +65,7 @@ df[1,2]
 df$indice
 df$indice[1]
 
-df<-read.csv("samples.csv", h=T, sep=";")
+df<-read.csv("https://raw.githubusercontent.com/pjfernandes/curso_r/master/aula_2/samples.csv", h=T, sep=";")
 head(df)
 names(tab)
 

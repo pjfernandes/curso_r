@@ -3094,39 +3094,6 @@ data,hora,t1,t2,x,y,z
 01/08/2011,12:01:29.00,4,9,291546.750,7606514.967,-3.843
 01/08/2011,12:01:30.00,4,9,291546.817,7606514.955,-3.835
 01/08/2011,12:01:31.00,4,9,291546.884,7606514.940,-3.830
-
-********************************************************************************
-
-GTR Processor v2.87                   ARQUIVO DE ÉPOCAS E TRAJETÓRIAS(Resumida)
-TRAJETÓRIA:  00142130-00242131
-
-Projeto:           C:\...\Processado\Atafona final.spr                         
-Data de Processo:  15/09/2011 14:21 (Local)
-Efemérides:        Transmitida                        Modelo do Relógio:      Transmitida
-Sist. de Coord.:   UTM [Universal Transve...] Datum:               SIRGAS
-Modelo do Geóide:      <Nenhum>
-
-ESTAÇÃO BASE:  00142130             [C:\...\Base\Base_p5_3d_dunas\00142130.OBS]
--------------------------------------------------------------------------------
-Ocupação do Marco:    001        Altura da Antena:     1.005 [Inclinada:   1.010]
-Intervalo de Gravação:   1.0 segundos   Modelo da Antena:   NOV702GG* (m)
-
-WGS84g1150                    SIRGAS (m)                    UTM (m)                                                            
-Lat: S 21 37 49.606739        Lat: S 21 37 49.606739        X: 291450.156                                                      
-Lon: O 41  0 53.782621        Lon: O 41  0 53.782621        Y: 7606724.402                                                     
-Alt: -0.843                   Alt: -0.843                                                                                      
-
-INFORMAÇÃO DO MÓVEL  (00242131)                       [C:\...\Rover\00242131.OBS]
--------------------------------------------------------------------------------
-Intervalo de gravação:     1.0 segundos
-Altura da Antena:    1.997  [Inclinada:   2.000]   Modelo da Antena: NOV702GG* (m)
-
-RESULTADOS DE TRAJETÓRIA
--------------------------------------------------------------------------------
-Intervalo de Processo: 1.0 segundos 
-Intervalo de Tempo: 01/08/2011 12:03:44 a 01/08/2011 12:58:04 (Local)    [ 54 min.]
-Observações:  33529                   Observações Usadas: 28880      [ 86.13% ]
-
 01/08/2011,12:03:44.00,4,9,291570.558,7606513.197,-6.449
 01/08/2011,12:03:45.00,4,9,291570.551,7606513.196,-6.448
 01/08/2011,12:03:46.00,4,9,291570.552,7606513.193,-6.436
@@ -6388,39 +6355,6 @@ Observações:  33529                   Observações Usadas: 28880      [ 86.13% ]
 01/08/2011,12:58:02.00,9,7,291443.719,7606394.252,-1.608
 01/08/2011,12:58:03.00,9,7,291443.711,7606394.250,-1.606
 01/08/2011,12:58:04.00,9,7,291443.724,7606394.281,-1.613
-
-********************************************************************************
-
-GTR Processor v2.87                   ARQUIVO DE ÉPOCAS E TRAJETÓRIAS(Resumida)
-TRAJETÓRIA:  00142130-ROVERA_1[02]
-
-Projeto:           C:\...\Processado\Atafona final.spr                         
-Data de Processo:  15/09/2011 14:21 (Local)
-Efemérides:        Transmitida                        Modelo do Relógio:      Transmitida
-Sist. de Coord.:   UTM [Universal Transve...] Datum:               SIRGAS
-Modelo do Geóide:      <Nenhum>
-
-ESTAÇÃO BASE:  00142130             [C:\...\Base\Base_p5_3d_dunas\00142130.OBS]
--------------------------------------------------------------------------------
-Ocupação do Marco:    001        Altura da Antena:     1.005 [Inclinada:   1.010]
-Intervalo de Gravação:   1.0 segundos   Modelo da Antena:   NOV702GG* (m)
-
-WGS84g1150                    SIRGAS (m)                    UTM (m)                                                            
-Lat: S 21 37 49.606739        Lat: S 21 37 49.606739        X: 291450.156                                                      
-Lon: O 41  0 53.782621        Lon: O 41  0 53.782621        Y: 7606724.402                                                     
-Alt: -0.843                   Alt: -0.843                                                                                      
-
-INFORMAÇÃO DO MÓVEL  (ROVERA_1[02])    [C:\...\Atafona_L1_01_08_11\RoverA-110801-A.OB
--------------------------------------------------------------------------------
-Intervalo de gravação:     2.0 segundoss
-Altura da Antena:    1.998  [Inclinada:   2.000]   Modelo da Antena: GTRA (m)
-
-RESULTADOS DE TRAJETÓRIA
--------------------------------------------------------------------------------
-Intervalo de Processo: 2.0 segundoss
-Intervalo de Tempo: 01/08/2011 11:24:48 a 01/08/2011 12:29:32 (Local)    [ 64 min.]
-Observações:  17708                   Observações Usadas: 15974      [ 90.21% ]
-
 01/08/2011,11:24:49.00,4,8,291552.294,7606411.447,-6.028
 01/08/2011,11:24:51.00,4,8,291552.314,7606411.447,-6.049
 01/08/2011,11:24:53.00,4,8,291552.339,7606411.447,-6.053
@@ -8364,39 +8298,6 @@ Observações:  17708                   Observações Usadas: 15974      [ 90.21% ]
 01/08/2011,12:29:29.00,4,9,291538.861,7606187.235,-6.134
 01/08/2011,12:29:31.00,4,9,291538.850,7606187.244,-6.134
 01/08/2011,12:29:33.00,4,9,291538.839,7606187.258,-6.132
-
-********************************************************************************
-
-GTR Processor v2.87                   ARQUIVO DE ÉPOCAS E TRAJETÓRIAS(Resumida)
-TRAJETÓRIA:  00142130-ROVERA_11080
-
-Projeto:           C:\...\Processado\Atafona final.spr                         
-Data de Processo:  15/09/2011 14:21 (Local)
-Efemérides:        Transmitida                        Modelo do Relógio:      Transmitida
-Sist. de Coord.:   UTM [Universal Transve...] Datum:               SIRGAS
-Modelo do Geóide:      <Nenhum>
-
-ESTAÇÃO BASE:  00142130             [C:\...\Base\Base_p5_3d_dunas\00142130.OBS]
--------------------------------------------------------------------------------
-Ocupação do Marco:    001        Altura da Antena:     1.005 [Inclinada:   1.010]
-Intervalo de Gravação:   1.0 segundos   Modelo da Antena:   NOV702GG* (m)
-
-WGS84g1150                    SIRGAS (m)                    UTM (m)                                                            
-Lat: S 21 37 49.606739        Lat: S 21 37 49.606739        X: 291450.156                                                      
-Lon: O 41  0 53.782621        Lon: O 41  0 53.782621        Y: 7606724.402                                                     
-Alt: -0.843                   Alt: -0.843                                                                                      
-
-INFORMAÇÃO DO MÓVEL  (ROVERA_11080)    [C:\...\L1\Atafona_L1_01_08_11\RoverA-110801.O
--------------------------------------------------------------------------------
-Intervalo de gravação:     2.0 segundoss
-Altura da Antena:    1.998  [Inclinada:   2.000]   Modelo da Antena: GTRA (m)
-
-RESULTADOS DE TRAJETÓRIA
--------------------------------------------------------------------------------
-Intervalo de Processo: 2.0 segundoss
-Intervalo de Tempo: 01/08/2011 11:18:18 a 01/08/2011 11:21:36 (Local)    [  3 min.]
-Observações:  745                     Observações Usadas: 745        [100.00% ]
-
 01/08/2011,11:18:19.00,9,6,291448.141,7606425.150,-0.369
 01/08/2011,11:18:21.00,9,6,291448.308,7606425.108,-0.334
 01/08/2011,11:18:23.00,9,6,291448.335,7606425.105,-0.369
